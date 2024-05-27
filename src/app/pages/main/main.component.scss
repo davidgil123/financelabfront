@@ -1,0 +1,22 @@
+.container--container__buttons{
+    height: 10%;
+    width: 70vw;
+    margin-top: 60vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    position: absolute;
+
+    button{
+        height: 5vh;
+        width: 30vw;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        
+    }
+}
